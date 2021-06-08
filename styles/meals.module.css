@@ -43,6 +43,12 @@
   margin-bottom: 1rem;
 }
 
+.procces {
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
 .gallery {
   max-width: 90%;
   margin: auto;

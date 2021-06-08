@@ -1,7 +1,7 @@
 import styles from '../../styles/meals.module.css';
 import Head from 'next/head';
 import { useState} from 'react';
-
+import Layout from '../../components/Layout2/Layout';
 
 export default function meals() {
     
@@ -25,6 +25,7 @@ export default function meals() {
     }
 
     return (
+    <Layout>
     <div>
       <Head>
         <link
@@ -62,6 +63,7 @@ export default function meals() {
         </div>
       </div>
     </div>
+    </Layout>
   );
 }
 
