@@ -6,7 +6,7 @@ export default function Navbar() {
         
         <div className={styles.container}>
             <header className={styles.header}>
-                <h1 className={styles.logo}>Logo</h1>
+                <h1 className={styles.logo}>FINAL</h1>
                 <input type="checkbox" id="nav-toggle" className={styles["nav-toggle"]}/>
                 <nav className={styles.nav}>
                     <ul>
