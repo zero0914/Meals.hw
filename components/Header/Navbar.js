@@ -26,7 +26,7 @@ export default function Navbar() {
                     Portfolio
                     <ul className={styles.nav__listItemDrop}>
                         <li><Link href="/project/meals">Project 1</Link></li>
-                        <li><Link href="/">Project 2</Link></li>
+                        <li><Link href="/project/w15-hw">Project 2</Link></li>
                         <li><Link href="/">Project 3</Link></li>
                         
                     </ul>
