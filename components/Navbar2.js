@@ -13,7 +13,7 @@ export default function nav() {
 
           <ul className={styles.menu}>
             <li>
-              <a href='/'>Home</a>
+              <a href='/project/card'>Home</a>
             </li>
             <li>
               <a href='/project/procces'>製作過程</a>
