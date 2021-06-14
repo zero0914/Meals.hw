@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../Navbar2'
+import Footer from '../../pages/project/footer'
 import styles from './Layout.module.scss'
 
 export default function Layout(props) {
@@ -11,7 +12,7 @@ export default function Layout(props) {
             </Head>
 
             <Navbar />
-
+            <Footer />
             <main className={styles.main}>{props.children}</main>
         </div>
     )
